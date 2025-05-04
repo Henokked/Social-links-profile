@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --db: hsl(0, 0%, 8%);
+    --mb: hsl(0, 0%, 12%);
+    --lb: hsl(0, 0%, 20%);
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%)
+}
+body{
+    background-color:var(--db);
+    min-height: 100vh;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mb);
+    width: 320px;
+    border-radius: 8px;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 10%;
+    
+    
+}
+.name{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 48px;
+}
+.location{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(81, 69%, 51%);
+    margin-top: 8px;
+}
+.bio{
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 75%);
+    margin-top: 16px;
+    text-align: center;
+    padding: 0 24px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 24px;
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 32px;
+}
+ul{
+    background-color: var(--lb);
+    font-size: 14px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+ul:hover{
+    background-color: var(--green);
+    cursor: pointer;
+    color: black;
+}
